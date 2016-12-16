@@ -1,0 +1,61 @@
+{
+    "author": "Stefan Krastanov",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "ha-light-switch",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "HA Light Switch",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "APP_READY",
+            "SWITCH_STATE",
+            "TOGGLE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Light Off-96.png",
+                    "name": "OFF_96",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Light On-96.png",
+                    "name": "ON_96",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Light Off-25.png",
+                    "name": "OFF_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Light On-25.png",
+                    "menuIcon": true,
+                    "name": "ON_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
+        "uuid": "60dac362-3888-436d-96d2-17cb9d585033",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
